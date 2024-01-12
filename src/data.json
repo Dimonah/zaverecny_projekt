@@ -1,0 +1,144 @@
+{
+    "exercises": {
+      "brucho": [
+        {
+          "id": 1,
+          "name": "Plank",
+          "duration": "1 min"
+        },
+        {
+          "id": 2,
+          "name": "Crunches",
+          "repetitions": 20,
+          "sets": 3
+        },
+        {
+          "id": 3,
+          "name": "Russian Twist",
+          "repetitions": 15,
+          "sets": 3
+        }
+      ],
+      "biceps": [
+        {
+          "id": 4,
+          "name": "Bicep Curls",
+          "repetitions": 12,
+          "sets": 4
+        },
+        {
+          "id": 5,
+          "name": "Hammer Curls",
+          "repetitions": 15,
+          "sets": 3
+        },
+        {
+          "id": 6,
+          "name": "Preacher Curls",
+          "repetitions": 12,
+          "sets": 3
+        }
+      ],
+      "triceps": [
+        {
+          "id": 7,
+          "name": "Tricep Dips",
+          "repetitions": 15,
+          "sets": 3
+        },
+        {
+          "id": 8,
+          "name": "Skull Crushers",
+          "repetitions": 12,
+          "sets": 4
+        },
+        {
+          "id": 9,
+          "name": "Tricep Kickbacks",
+          "repetitions": 15,
+          "sets": 3
+        }
+      ],
+      "prsia": [
+        {
+          "id": 10,
+          "name": "Bench Press",
+          "repetitions": 10,
+          "sets": 4
+        },
+        {
+          "id": 11,
+          "name": "Dumbbell Flyes",
+          "repetitions": 12,
+          "sets": 3
+        },
+        {
+          "id": 12,
+          "name": "Push-Ups",
+          "repetitions": 20,
+          "sets": 3
+        }
+      ],
+      "chrbat": [
+        {
+          "id": 13,
+          "name": "Deadlifts",
+          "repetitions": 8,
+          "sets": 4
+        },
+        {
+          "id": 14,
+          "name": "Lat Pulldowns",
+          "repetitions": 12,
+          "sets": 3
+        },
+        {
+          "id": 15,
+          "name": "Barbell Rows",
+          "repetitions": 10,
+          "sets": 4
+        }
+      ],
+      "nohy": [
+        {
+          "id": 16,
+          "name": "Squats",
+          "repetitions": 15,
+          "sets": 3
+        },
+        {
+          "id": 17,
+          "name": "Leg Press",
+          "repetitions": 12,
+          "sets": 4
+        },
+        {
+          "id": 18,
+          "name": "Lunges",
+          "repetitions": 10,
+          "sets": 3
+        }
+      ],
+      "ramena": [
+        {
+          "id": 19,
+          "name": "Shoulder Press",
+          "repetitions": 12,
+          "sets": 3
+        },
+        {
+          "id": 20,
+          "name": "Lateral Raises",
+          "repetitions": 15,
+          "sets": 3
+        },
+        {
+          "id": 21,
+          "name": "Front Raises",
+          "repetitions": 12,
+          "sets": 3
+        }
+      ]
+    }
+  }
+  
