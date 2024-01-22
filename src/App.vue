@@ -1,6 +1,6 @@
-<!-- src/App.vue -->
 <template>
-  <div id="app">
+  <div :class="{'darkbg':(this.store.isDark)}">
+    <button className="changecolor" @click="this.store.toggleDark()">zmena farby pozadia</button>
     <Navigation />
     <router-view />
     <Footer />
@@ -8,9 +8,9 @@
 </template>
 
 <script>
+import { useColorStore } from './stores/store.js';
 import Navigation from './components/Navigation.vue';
 import Footer from './components/Footer.vue';
-
 
 export default {
   name: 'App',
@@ -18,9 +18,15 @@ export default {
     Navigation,
     Footer,
   },
+  data() {
+    return {
+      store:useColorStore()
+    };
+  },
+  methods: {
+  },
 };
 </script>
 
 <style>
-/* prispôsobte štýl podľa potreby */
 </style>

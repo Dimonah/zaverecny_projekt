@@ -16,5 +16,4 @@ export default {
 </script>
 
 <style>
-/* prispôsobte štýl podľa potreby */
 </style>

@@ -6,12 +6,11 @@
 
 <script>
 export default {
-  name: "Footer", // Môžete pridať ďalšie  komponenty tu
+  name: "Footer", 
 };
 </script>
 
 <style scoped>
-/* Prípadné štýly pre váš footer */
 footer {
   background-color: #333;
   color: white;
@@ -19,5 +18,6 @@ footer {
   padding: 10px;
   bottom: 0;
   width: 100%;
+  margin-top:auto;
 }
 </style>
