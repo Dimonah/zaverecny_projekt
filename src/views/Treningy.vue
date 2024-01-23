@@ -5,23 +5,18 @@
 </template>
 
 <script>
-import data from "@/data.json"
+import data from "@/data.json";
 import Trening from "../components/Trening.vue";
 
 export default {
   name: "Treningy",
   components: {
-    Trening
+    Trening,
   },
   data() {
     return {
-      treningExercises: data.exercises
+      treningExercises: data.exercises,
     };
   },
-
-    };
-
+};
 </script>
-
-<style>
-</style>

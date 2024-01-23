@@ -8,7 +8,6 @@ export const useColorStore = defineStore({
   actions: {
     toggleDark() {
       this.isDark = !this.isDark;
-      console.log(this.isDark)
     },
   },
 });

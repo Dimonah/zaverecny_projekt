@@ -8,7 +8,7 @@
           <li v-for="exercise in exercises[category]" :key="exercise.id" class="exercise-item">
             {{ exercise.name }}
             <span v-if="exercise.duration">- {{ exercise.duration }}</span>
-            <span v-if="exercise.repetitions">({{ exercise.repetitions }} opakovania)</span>
+            <span v-if="exercise.repetitions">({{ exercise.repetitions }} opakovaní)</span>
             <span v-if="exercise.sets">({{ exercise.sets }} série)</span>
           </li>
         </ul>
@@ -24,7 +24,7 @@
 export default {
   props: {
     exercises: Object
-  }
+  },
 };
 </script>
 
@@ -36,6 +36,9 @@ export default {
 }
 
 h1 {
+  color: #333;
+}
+h2 {
   color: #333;
 }
 

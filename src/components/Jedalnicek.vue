@@ -1,4 +1,3 @@
-<!-- Jedalnicek.vue -->
 <template>
   <div class="jedalnicek">
     <h1>Definícia zdravého stravovania</h1>
